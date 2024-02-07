@@ -1,0 +1,55 @@
+ERROR    common.baseApi:baseApi.py:53 2024-01-06 23:02:04.506 | ERROR    | common.baseApi:request_send:53 - Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\apiAutoTest\venv\lib\site-packages\urllib3\connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+  File "C:\Users\Administrator\PycharmProjects\apiAutoTest\venv\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\Administrator\PycharmProjects\apiAutoTest\venv\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\apiAutoTest\venv\lib\site-packages\urllib3\connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "C:\Users\Administrator\PycharmProjects\apiAutoTest\venv\lib\site-packages\urllib3\connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "C:\Users\Administrator\PycharmProjects\apiAutoTest\venv\lib\site-packages\urllib3\connection.py", line 395, in request
+    self.endheaders()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1012, in _send_output
+    self.send(msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 952, in send
+    self.connect()
+  File "C:\Users\Administrator\PycharmProjects\apiAutoTest\venv\lib\site-packages\urllib3\connection.py", line 243, in connect
+    self.sock = self._new_conn()
+  File "C:\Users\Administrator\PycharmProjects\apiAutoTest\venv\lib\site-packages\urllib3\connection.py", line 218, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000001470BB8DFA0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\apiAutoTest\venv\lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "C:\Users\Administrator\PycharmProjects\apiAutoTest\venv\lib\site-packages\urllib3\connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Administrator\PycharmProjects\apiAutoTest\venv\lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='121.41.14.39', port=8082): Max retries exceeded with url: /account/sLogin (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001470BB8DFA0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\DeliverySystem完整代码\common\baseApi.py", line 41, in request_send
+    resp = requests.request(
+  File "C:\Users\Administrator\PycharmProjects\apiAutoTest\venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\apiAutoTest\venv\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Administrator\PycharmProjects\apiAutoTest\venv\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\apiAutoTest\venv\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='121.41.14.39', port=8082): Max retries exceeded with url: /account/sLogin (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001470BB8DFA0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))

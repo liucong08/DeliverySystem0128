@@ -1,0 +1,5 @@
+INFO     common.baseApi:baseApi.py:46 2024-01-20 16:33:05.542 | INFO     | common.baseApi:request_send:46 - 模块名:Login,接口名:login
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//account/sLogin,
+    请求方法:POST
+INFO     common.apiAssert:apiAssert.py:37 2024-01-20 16:33:05.543 | INFO     | common.apiAssert:api_assert:37 - 登录接口的断言,断言类型:==,断言详情：实际结果:该用户不存在!,预期结果:该用户不存在!

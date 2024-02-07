@@ -1,0 +1,297 @@
+2024-01-07 13:46:01,baseApi(line:46),INFO|模块名:Login,接口名:login
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//account/sLogin,
+    请求方法:POST
+2024-01-07 13:46:01,baseApi(line:46),INFO|模块名:FoodManage,接口名:add
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/addmyfood,
+    请求方法:POST
+2024-01-07 13:46:01,baseApi(line:46),INFO|模块名:FoodManage,接口名:add
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/addmyfood,
+    请求方法:POST
+2024-01-07 13:46:01,apiAssert(line:37),INFO|断言操作,断言类型:=,断言详情：实际结果:20000,预期结果:20000
+2024-01-07 13:46:01,baseApi(line:46),INFO|模块名:FoodManage,接口名:add
+    响应状态码:400,
+    请求url:http://42.192.62.8:8082//shopping/addmyfood,
+    请求方法:POST
+2024-01-07 13:46:01,apiAssert(line:37),INFO|断言操作,断言类型:=,断言详情：实际结果:Bad Request,预期结果:Bad Request
+2024-01-07 13:46:01,baseApi(line:46),INFO|模块名:FoodManage,接口名:add
+    响应状态码:400,
+    请求url:http://42.192.62.8:8082//shopping/addmyfood,
+    请求方法:POST
+2024-01-07 13:46:01,apiAssert(line:37),INFO|断言操作,断言类型:=,断言详情：实际结果:Bad Request,预期结果:Bad Request
+2024-01-07 13:46:01,baseApi(line:46),INFO|模块名:FoodManage,接口名:add
+    响应状态码:400,
+    请求url:http://42.192.62.8:8082//shopping/addmyfood,
+    请求方法:POST
+2024-01-07 13:46:01,apiAssert(line:37),INFO|断言操作,断言类型:=,断言详情：实际结果:Bad Request,预期结果:Bad Request
+2024-01-07 13:46:01,baseApi(line:46),INFO|模块名:FoodManage,接口名:add
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/addmyfood,
+    请求方法:POST
+2024-01-07 13:46:01,apiAssert(line:39),ERROR|Traceback (most recent call last):
+  File "C:\DeliverySystem完整代码\common\apiAssert.py", line 27, in api_assert
+    "==": result[assert_info] == exp_result[assert_info],
+KeyError: 'code'
+
+2024-01-07 13:46:02,baseApi(line:46),INFO|模块名:FoodManage,接口名:add
+    响应状态码:400,
+    请求url:http://42.192.62.8:8082//shopping/addmyfood,
+    请求方法:POST
+2024-01-07 13:46:02,apiAssert(line:37),INFO|断言操作,断言类型:=,断言详情：实际结果:Bad Request,预期结果:Bad Request
+2024-01-07 13:46:02,baseApi(line:46),INFO|模块名:FoodManage,接口名:add
+    响应状态码:400,
+    请求url:http://42.192.62.8:8082//shopping/addmyfood,
+    请求方法:POST
+2024-01-07 13:46:02,apiAssert(line:37),INFO|断言操作,断言类型:=,断言详情：实际结果:Bad Request,预期结果:Bad Request
+2024-01-07 13:46:02,baseApi(line:46),INFO|模块名:FoodManage,接口名:add
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/addmyfood,
+    请求方法:POST
+2024-01-07 13:46:02,apiAssert(line:37),INFO|断言操作,断言类型:=,断言详情：实际结果:20000,预期结果:20000
+2024-01-07 13:46:02,baseApi(line:46),INFO|模块名:FoodManage,接口名:add
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/addmyfood,
+    请求方法:POST
+2024-01-07 13:46:02,apiAssert(line:37),INFO|断言操作,断言类型:=,断言详情：实际结果:20000,预期结果:20000
+2024-01-07 13:46:02,baseApi(line:46),INFO|模块名:FoodManage,接口名:add
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/addmyfood,
+    请求方法:POST
+2024-01-07 13:46:02,apiAssert(line:37),INFO|断言操作,断言类型:=,断言详情：实际结果:20000,预期结果:20000
+2024-01-07 13:46:02,baseApi(line:46),INFO|模块名:FoodManage,接口名:add
+    响应状态码:400,
+    请求url:http://42.192.62.8:8082//shopping/addmyfood,
+    请求方法:POST
+2024-01-07 13:46:02,apiAssert(line:37),INFO|断言操作,断言类型:=,断言详情：实际结果:Bad Request,预期结果:Bad Request
+2024-01-07 13:46:02,baseApi(line:46),INFO|模块名:FoodManage,接口名:add
+    响应状态码:400,
+    请求url:http://42.192.62.8:8082//shopping/addmyfood,
+    请求方法:POST
+2024-01-07 13:46:02,apiAssert(line:37),INFO|断言操作,断言类型:=,断言详情：实际结果:Bad Request,预期结果:Bad Request
+2024-01-07 13:46:02,baseApi(line:46),INFO|模块名:FoodManage,接口名:add
+    响应状态码:400,
+    请求url:http://42.192.62.8:8082//shopping/addmyfood,
+    请求方法:POST
+2024-01-07 13:46:02,apiAssert(line:37),INFO|断言操作,断言类型:=,断言详情：实际结果:Bad Request,预期结果:Bad Request
+2024-01-07 13:46:02,baseApi(line:46),INFO|模块名:FoodManage,接口名:add
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/addmyfood,
+    请求方法:POST
+2024-01-07 13:46:02,apiAssert(line:39),ERROR|Traceback (most recent call last):
+  File "C:\DeliverySystem完整代码\common\apiAssert.py", line 27, in api_assert
+    "==": result[assert_info] == exp_result[assert_info],
+KeyError: 'code'
+
+2024-01-07 13:46:02,baseApi(line:46),INFO|模块名:FoodManage,接口名:add
+    响应状态码:400,
+    请求url:http://42.192.62.8:8082//shopping/addmyfood,
+    请求方法:POST
+2024-01-07 13:46:02,apiAssert(line:37),INFO|断言操作,断言类型:=,断言详情：实际结果:Bad Request,预期结果:Bad Request
+2024-01-07 13:46:02,baseApi(line:46),INFO|模块名:FoodManage,接口名:add
+    响应状态码:400,
+    请求url:http://42.192.62.8:8082//shopping/addmyfood,
+    请求方法:POST
+2024-01-07 13:46:02,apiAssert(line:37),INFO|断言操作,断言类型:=,断言详情：实际结果:Bad Request,预期结果:Bad Request
+2024-01-07 13:46:03,baseApi(line:46),INFO|模块名:FoodManage,接口名:add
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/addmyfood,
+    请求方法:POST
+2024-01-07 13:46:03,apiAssert(line:37),INFO|断言操作,断言类型:=,断言详情：实际结果:20000,预期结果:20000
+2024-01-07 13:46:03,baseApi(line:46),INFO|模块名:FoodManage,接口名:add
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/addmyfood,
+    请求方法:POST
+2024-01-07 13:46:03,apiAssert(line:37),INFO|断言操作,断言类型:=,断言详情：实际结果:20000,预期结果:20000
+2024-01-07 13:46:03,baseApi(line:46),INFO|模块名:FoodManage,接口名:add
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/addmyfood,
+    请求方法:POST
+2024-01-07 13:46:03,apiAssert(line:37),INFO|断言操作,断言类型:=,断言详情：实际结果:20000,预期结果:20000
+2024-01-07 13:46:03,baseApi(line:46),INFO|模块名:FoodManage,接口名:add
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/addmyfood,
+    请求方法:POST
+2024-01-07 13:46:03,apiAssert(line:39),ERROR|Traceback (most recent call last):
+  File "C:\DeliverySystem完整代码\common\apiAssert.py", line 27, in api_assert
+    "==": result[assert_info] == exp_result[assert_info],
+KeyError: 'code'
+
+2024-01-07 13:46:03,baseApi(line:46),INFO|模块名:FoodManage,接口名:add
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/addmyfood,
+    请求方法:POST
+2024-01-07 13:46:03,apiAssert(line:37),INFO|断言操作,断言类型:=,断言详情：实际结果:20000,预期结果:20000
+2024-01-07 13:46:03,baseApi(line:46),INFO|模块名:FoodManage,接口名:query
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/v2/myFoods?page=1&limit=1,
+    请求方法:GET
+2024-01-07 13:46:03,apiAssert(line:37),INFO|断言操作,断言类型:=,断言详情：实际结果:20000,预期结果:20000
+2024-01-07 13:46:03,baseApi(line:46),INFO|模块名:FoodManage,接口名:query
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/v2/myFoods?page=&limit=1,
+    请求方法:GET
+2024-01-07 13:46:03,apiAssert(line:39),ERROR|Traceback (most recent call last):
+  File "C:\DeliverySystem完整代码\common\apiAssert.py", line 27, in api_assert
+    "==": result[assert_info] == exp_result[assert_info],
+KeyError: 'code'
+
+2024-01-07 13:46:03,baseApi(line:46),INFO|模块名:FoodManage,接口名:query
+    响应状态码:500,
+    请求url:http://42.192.62.8:8082//shopping/v2/myFoods?page=1&limit=,
+    请求方法:GET
+2024-01-07 13:46:03,apiAssert(line:37),INFO|断言操作,断言类型:=,断言详情：实际结果:Internal Server Error,预期结果:Internal Server Error
+2024-01-07 13:46:04,baseApi(line:46),INFO|模块名:FoodManage,接口名:query
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/v2/myFoods?page=1&limit=1,
+    请求方法:GET
+2024-01-07 13:46:04,baseApi(line:46),INFO|模块名:FoodManage,接口名:query
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/v2/myFoods?page=1&limit=1,
+    请求方法:GET
+2024-01-07 13:46:04,baseApi(line:46),INFO|模块名:FoodManage,接口名:query
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/v2/myFoods?page=1&limit=1,
+    请求方法:GET
+2024-01-07 13:46:04,baseApi(line:46),INFO|模块名:FoodManage,接口名:query
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/v2/myFoods?page=1&limit=1,
+    请求方法:GET
+2024-01-07 13:46:04,baseApi(line:46),INFO|模块名:FoodManage,接口名:query
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/v2/myFoods?page=1&limit=1,
+    请求方法:GET
+2024-01-07 13:46:05,baseApi(line:46),INFO|模块名:FoodManage,接口名:query
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/v2/myFoods?page=1&limit=1,
+    请求方法:GET
+2024-01-07 13:46:05,baseApi(line:46),INFO|模块名:FoodManage,接口名:query
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/v2/myFoods?page=1&limit=1,
+    请求方法:GET
+2024-01-07 13:46:05,baseApi(line:46),INFO|模块名:FoodManage,接口名:query
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/v2/myFoods?page=1&limit=1,
+    请求方法:GET
+2024-01-07 13:46:05,baseApi(line:46),INFO|模块名:Login,接口名:login
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//account/sLogin,
+    请求方法:POST
+2024-01-07 13:46:05,apiAssert(line:39),ERROR|Traceback (most recent call last):
+  File "C:\DeliverySystem完整代码\common\apiAssert.py", line 32, in api_assert
+    assert assert_type[condition]
+AssertionError
+
+2024-01-07 13:46:05,baseApi(line:46),INFO|模块名:Login,接口名:login
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//account/sLogin,
+    请求方法:POST
+2024-01-07 13:46:05,apiAssert(line:37),INFO|登录接口的断言,断言类型:==,断言详情：实际结果:输入的密码错误!,预期结果:输入的密码错误!
+2024-01-07 13:46:06,baseApi(line:46),INFO|模块名:Login,接口名:login
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//account/sLogin,
+    请求方法:POST
+2024-01-07 13:46:06,apiAssert(line:37),INFO|登录接口的断言,断言类型:==,断言详情：实际结果:该用户不存在!,预期结果:该用户不存在!
+2024-01-07 13:46:06,baseApi(line:46),INFO|模块名:Login,接口名:login
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//account/sLogin,
+    请求方法:POST
+2024-01-07 13:46:06,apiAssert(line:37),INFO|登录接口的断言,断言类型:==,断言详情：实际结果:该用户不存在!,预期结果:该用户不存在!
+2024-01-07 13:46:06,baseApi(line:46),INFO|模块名:Login,接口名:login
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//account/sLogin,
+    请求方法:POST
+2024-01-07 13:46:06,apiAssert(line:37),INFO|登录接口的断言,断言类型:==,断言详情：实际结果:输入的密码错误!,预期结果:输入的密码错误!
+2024-01-07 13:46:06,baseApi(line:46),INFO|模块名:Login,接口名:login
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//account/sLogin,
+    请求方法:POST
+2024-01-07 13:46:06,apiAssert(line:37),INFO|登录接口的断言,断言类型:==,断言详情：实际结果:该用户不存在!,预期结果:该用户不存在!
+2024-01-07 13:46:06,baseApi(line:46),INFO|模块名:OrderAdmin,接口名:query
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//bos/myOrders?page=1&limit=1,
+    请求方法:GET
+2024-01-07 13:46:06,apiAssert(line:37),INFO|断言操作,断言类型:=,断言详情：实际结果:20000,预期结果:20000
+2024-01-07 13:46:06,baseApi(line:46),INFO|模块名:OrderAdmin,接口名:query
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//bos/myOrders?page=&limit=1,
+    请求方法:GET
+2024-01-07 13:46:06,apiAssert(line:39),ERROR|Traceback (most recent call last):
+  File "C:\DeliverySystem完整代码\common\apiAssert.py", line 27, in api_assert
+    "==": result[assert_info] == exp_result[assert_info],
+KeyError: 'code'
+
+2024-01-07 13:46:06,baseApi(line:46),INFO|模块名:OrderAdmin,接口名:query
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//bos/myOrders?page=0&limit=1,
+    请求方法:GET
+2024-01-07 13:46:06,apiAssert(line:37),INFO|断言操作,断言类型:=,断言详情：实际结果:20000,预期结果:20000
+2024-01-07 13:46:07,baseApi(line:46),INFO|模块名:OrderAdmin,接口名:query
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//bos/myOrders?page=-1&limit=1,
+    请求方法:GET
+2024-01-07 13:46:07,apiAssert(line:37),INFO|断言操作,断言类型:=,断言详情：实际结果:20000,预期结果:20000
+2024-01-07 13:46:07,baseApi(line:46),INFO|模块名:OrderAdmin,接口名:query
+    响应状态码:500,
+    请求url:http://42.192.62.8:8082//bos/myOrders?page=1&limit=,
+    请求方法:GET
+2024-01-07 13:46:07,apiAssert(line:37),INFO|断言操作,断言类型:=,断言详情：实际结果:Internal Server Error,预期结果:Internal Server Error
+2024-01-07 13:46:07,baseApi(line:46),INFO|模块名:OrderAdmin,接口名:query
+    响应状态码:500,
+    请求url:http://42.192.62.8:8082//bos/myOrders?page=1&limit=0,
+    请求方法:GET
+2024-01-07 13:46:07,apiAssert(line:37),INFO|断言操作,断言类型:=,断言详情：实际结果:Internal Server Error,预期结果:Internal Server Error
+2024-01-07 13:46:07,baseApi(line:46),INFO|模块名:OrderAdmin,接口名:query
+    响应状态码:500,
+    请求url:http://42.192.62.8:8082//bos/myOrders?page=1&limit=-1,
+    请求方法:GET
+2024-01-07 13:46:07,apiAssert(line:37),INFO|断言操作,断言类型:=,断言详情：实际结果:Internal Server Error,预期结果:Internal Server Error
+2024-01-07 13:46:07,baseApi(line:46),INFO|模块名:OrderAdmin,接口名:query
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//bos/myOrders?page=1&limit=20&id=9555,
+    请求方法:GET
+2024-01-07 13:46:07,apiAssert(line:37),INFO|断言操作,断言类型:=,断言详情：实际结果:20000,预期结果:20000
+2024-01-07 13:46:07,baseApi(line:46),INFO|模块名:Shop,接口名:query
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/myShop?page=1&limit=1,
+    请求方法:GET
+2024-01-07 13:46:07,apiAssert(line:37),INFO|店铺查询接口断言,断言类型:==,断言详情：实际结果:20000,预期结果:20000
+2024-01-07 13:46:07,baseApi(line:46),INFO|模块名:Shop,接口名:query
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/myShop?page=0&limit=1,
+    请求方法:GET
+2024-01-07 13:46:07,apiAssert(line:37),INFO|店铺查询接口断言,断言类型:==,断言详情：实际结果:20000,预期结果:20000
+2024-01-07 13:46:07,baseApi(line:46),INFO|模块名:Shop,接口名:query
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/myShop?page=-1&limit=1,
+    请求方法:GET
+2024-01-07 13:46:07,apiAssert(line:37),INFO|店铺查询接口断言,断言类型:==,断言详情：实际结果:20000,预期结果:20000
+2024-01-07 13:46:07,baseApi(line:46),INFO|模块名:Shop,接口名:query
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/myShop?page=2&limit=1,
+    请求方法:GET
+2024-01-07 13:46:07,apiAssert(line:37),INFO|店铺查询接口断言,断言类型:==,断言详情：实际结果:20000,预期结果:20000
+2024-01-07 13:46:08,baseApi(line:46),INFO|模块名:Shop,接口名:query
+    响应状态码:500,
+    请求url:http://42.192.62.8:8082//shopping/myShop?page=1&limit=0,
+    请求方法:GET
+2024-01-07 13:46:08,apiAssert(line:39),ERROR|Traceback (most recent call last):
+  File "C:\DeliverySystem完整代码\common\apiAssert.py", line 27, in api_assert
+    "==": result[assert_info] == exp_result[assert_info],
+KeyError: 'code'
+
+2024-01-07 13:46:08,baseApi(line:46),INFO|模块名:Shop,接口名:query
+    响应状态码:500,
+    请求url:http://42.192.62.8:8082//shopping/myShop?page=1&limit=-1,
+    请求方法:GET
+2024-01-07 13:46:08,apiAssert(line:39),ERROR|Traceback (most recent call last):
+  File "C:\DeliverySystem完整代码\common\apiAssert.py", line 27, in api_assert
+    "==": result[assert_info] == exp_result[assert_info],
+KeyError: 'code'
+
+2024-01-07 13:46:08,baseApi(line:46),INFO|模块名:Shop,接口名:query
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/myShop?page=1&limit=21,
+    请求方法:GET
+2024-01-07 13:46:08,apiAssert(line:37),INFO|店铺查询接口断言,断言类型:==,断言详情：实际结果:20000,预期结果:20000

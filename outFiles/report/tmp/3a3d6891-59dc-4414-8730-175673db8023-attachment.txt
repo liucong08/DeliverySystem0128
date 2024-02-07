@@ -1,0 +1,8 @@
+[32mINFO    [0m common.baseApi:baseApi.py:46 2024-01-20 15:35:22.478 | INFO     | common.baseApi:request_send:46 - 模块名:FoodManage,接口名:add
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/addmyfood,
+    请求方法:POST
+[1m[31mERROR   [0m common.apiAssert:apiAssert.py:39 2024-01-20 15:35:22.479 | ERROR    | common.apiAssert:api_assert:39 - Traceback (most recent call last):
+  File "C:\DeliverySystem完整代码\common\apiAssert.py", line 27, in api_assert
+    "==": result[assert_info] == exp_result[assert_info],
+KeyError: 'code'

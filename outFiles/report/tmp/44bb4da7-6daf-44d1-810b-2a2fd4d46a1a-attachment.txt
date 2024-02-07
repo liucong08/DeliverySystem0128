@@ -1,0 +1,5 @@
+[32mINFO    [0m common.baseApi:baseApi.py:46 2024-01-20 14:50:58.924 | INFO     | common.baseApi:request_send:46 - 模块名:Shop,接口名:query
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/myShop?page=2&limit=1,
+    请求方法:GET
+[32mINFO    [0m common.apiAssert:apiAssert.py:37 2024-01-20 14:50:58.925 | INFO     | common.apiAssert:api_assert:37 - 店铺查询接口断言,断言类型:==,断言详情：实际结果:20000,预期结果:20000

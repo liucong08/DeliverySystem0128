@@ -1,0 +1,34 @@
+2024-01-06 23:22:07,baseApi(line:46),INFO|模块名:Login,接口名:login
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//account/sLogin,
+    请求方法:POST
+2024-01-06 23:22:07,apiAssert(line:39),ERROR|Traceback (most recent call last):
+  File "C:\DeliverySystem完整代码\common\apiAssert.py", line 32, in api_assert
+    assert assert_type[condition]
+AssertionError
+
+2024-01-06 23:22:07,baseApi(line:46),INFO|模块名:Login,接口名:login
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//account/sLogin,
+    请求方法:POST
+2024-01-06 23:22:07,apiAssert(line:37),INFO|登录接口的断言,断言类型:==,断言详情：实际结果:输入的密码错误!,预期结果:输入的密码错误!
+2024-01-06 23:22:07,baseApi(line:46),INFO|模块名:Login,接口名:login
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//account/sLogin,
+    请求方法:POST
+2024-01-06 23:22:07,apiAssert(line:37),INFO|登录接口的断言,断言类型:==,断言详情：实际结果:该用户不存在!,预期结果:该用户不存在!
+2024-01-06 23:22:07,baseApi(line:46),INFO|模块名:Login,接口名:login
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//account/sLogin,
+    请求方法:POST
+2024-01-06 23:22:07,apiAssert(line:37),INFO|登录接口的断言,断言类型:==,断言详情：实际结果:该用户不存在!,预期结果:该用户不存在!
+2024-01-06 23:22:07,baseApi(line:46),INFO|模块名:Login,接口名:login
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//account/sLogin,
+    请求方法:POST
+2024-01-06 23:22:07,apiAssert(line:37),INFO|登录接口的断言,断言类型:==,断言详情：实际结果:输入的密码错误!,预期结果:输入的密码错误!
+2024-01-06 23:22:07,baseApi(line:46),INFO|模块名:Login,接口名:login
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//account/sLogin,
+    请求方法:POST
+2024-01-06 23:22:07,apiAssert(line:37),INFO|登录接口的断言,断言类型:==,断言详情：实际结果:该用户不存在!,预期结果:该用户不存在!

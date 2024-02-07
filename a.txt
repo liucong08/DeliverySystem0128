@@ -1,0 +1,59 @@
+卷 数据 的文件夹 PATH 列表
+卷序列号为 C53B-33CE
+G:\SONGQIN\PYTHON\DEMO\DELIVERYSYSTEM1028
+│  a.txt
+│  readme.md
+│  requirements.txt
+│  
+├─.idea
+│  │  .gitignore
+│  │  DeliverySystem1028.iml
+│  │  encodings.xml
+│  │  misc.xml
+│  │  modules.xml
+│  │  workspace.xml
+│  │  
+│  └─inspectionProfiles
+│          profiles_settings.xml
+│          Project_Default.xml
+│          
+├─common
+│      baseApi.py
+│      __init__.py
+│      
+├─configs
+│      __init__.py
+│      
+├─cookies技术实战
+│      cookies使用seesion关联.py
+│      cookies原生态关联.py
+│      cookies扩展关联.py
+│      __init__.py
+│      
+├─data
+├─docs
+├─libs
+│      cookies原生态关联.py
+│      login.py
+│      shop.py
+│      __init__.py
+│      
+├─outFiles
+│  ├─logs
+│  ├─report
+│  └─screenshot
+├─testCase
+│      __init__.py
+│      
+├─token技术实战
+│      encrypt_data.py
+│      login.py
+│      loginRSA.py
+│      MD5加密.md
+│      public.pem
+│      rsa加密.md
+│      __init__.py
+│      
+└─utils
+        __init__.py
+        

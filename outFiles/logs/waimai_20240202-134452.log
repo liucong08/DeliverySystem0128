@@ -1,0 +1,24 @@
+2024-02-02 13:44:52,baseApi(line:49),INFO|模块名:Login,接口名:login
+    响应状态码:502,
+    请求url:http://42.192.62.8:8082//account/sLogin,
+    请求方法:POST
+2024-02-02 13:44:52,baseApi(line:53),ERROR|Traceback (most recent call last):
+  File "C:\tools\python 36\lib\site-packages\requests\models.py", line 910, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\tools\python 36\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\tools\python 36\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\tools\python 36\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 2 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\DeliverySystem完整代码\common\baseApi.py", line 51, in request_send
+    return resp.json()
+  File "C:\tools\python 36\lib\site-packages\requests\models.py", line 917, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: [Errno Expecting value] [Fiddler] The connection to '42.192.62.8' failed. <br />Error: HostUnreachable (0x2751). <br />System.Net.Sockets.SocketException 套接字操作尝试一个无法连接的主机。 42.192.62.8:8082                                                                                                                                                                                                                                                                                                                                                            : 1
+

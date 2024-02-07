@@ -1,0 +1,4 @@
+INFO     common.baseApi:baseApi.py:46 2024-01-07 13:44:07.439 | INFO     | common.baseApi:request_send:46 - 模块名:FoodManage,接口名:query
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//shopping/v2/myFoods?page=1&limit=1,
+    请求方法:GET

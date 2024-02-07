@@ -1,0 +1,39 @@
+Login:  #登录模块
+  login: #登录接口
+    path: /account/sLogin #路径 /account/loginRsa
+    method: POST #方法
+  logout: #退出接口
+    path: #路径
+    method: #方法
+
+Shop:
+  query: #查询
+    path: /shopping/myShop #路径
+    method: GET #方法
+  update: #修改接口
+    path: /shopping/updatemyshop #路径
+    method: POST #方法
+  file_upload: #文件上传接口
+    path: /file #路径
+    method: POST #方法
+OrderAdmin:
+  query:
+    path: /bos/myOrders
+    method: GET
+
+FoodManage:
+  category_list:
+    path: /shopping/getcategory/
+    method: GET
+  query: #kuirui
+    path: /shopping/v2/myFoods
+    method: GET
+  add:
+    path: /shopping/addmyfood
+    method: POST
+  update:
+    path: /shopping/v2/updatemyfood
+    method: POST
+  delete:
+    path: /shopping/v2/fooddel/
+    method: DELETE

@@ -1,0 +1,7 @@
+file_name: Delivery_System_V1.5.xls
+cols: ["标题","请求参数","响应预期结果"]
+run_case:
+ Login: [1,3,5,"all"]
+ updateshopping: [1,3,5,"all"]
+
+

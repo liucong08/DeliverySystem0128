@@ -1,0 +1,8 @@
+[32mINFO    [0m common.baseApi:baseApi.py:46 2024-01-20 14:50:56.545 | INFO     | common.baseApi:request_send:46 - 模块名:Login,接口名:login
+    响应状态码:200,
+    请求url:http://42.192.62.8:8082//account/sLogin,
+    请求方法:POST
+[1m[31mERROR   [0m common.apiAssert:apiAssert.py:39 2024-01-20 14:50:56.546 | ERROR    | common.apiAssert:api_assert:39 - Traceback (most recent call last):
+  File "C:\DeliverySystem完整代码\common\apiAssert.py", line 32, in api_assert
+    assert assert_type[condition]
+AssertionError

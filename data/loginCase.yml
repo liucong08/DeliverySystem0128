@@ -1,0 +1,23 @@
+- # 测试用例1  列表
+  detail: 用户名正确，密码正确 #标题
+  data: #请求体数据
+    username:  th0198
+    password: xintian
+  resp:
+    code: 20000
+    msg: 成功
+- # 测试用例2  列表
+  detail: 用户名正确，密码为空 #标题
+  data: #请求体数据
+    username: th0198
+    password: ""
+  resp:
+    code: 20000
+    msg: 输入的密码错误!
+- # 测试用例3  列表
+  detail: 用户名为空，密码正确 #标题
+  data: {"username": "","password":"xintian"}
+  resp:
+    code: 20000
+    msg: 该用户不存在!
+
